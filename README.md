@@ -1,2 +1,2 @@
 # learningExrta1
-this is for learning website made in java enterprise
+this is for learning, website made in java enterprise
