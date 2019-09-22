@@ -11,5 +11,10 @@
 	<h1>my name is niles</h1>
 	<p>well this is stil just text but well</p>
 	
+	<form action="server">
+		<input type="text" name="text">
+		<input type="submit">
+	</form>
+	
 </body>
 </html>
