@@ -9,16 +9,17 @@
 	<link rel="stylesheet" type="text/css" href="main.css">
 <body>
 	
-	<h1>my name is niles</h1>
-	<p>well this is stil just text but well</p>
 	
-	
+	<div class="menu">
+		
+	</div>
+	<div class="menuUnder">
+		
+	</div>
 	<div class="wrapper">
 		<div class="grid">
 		
-			<div class="menu">
-				
-			</div>
+			
 			
 			<div class="header">
 	
@@ -33,11 +34,6 @@
 	
 	
 	
-	
-	<form action="server">
-		<input type="text" name="text">
-		<input type="submit">
-	</form>
 	
 </body>
 </html>

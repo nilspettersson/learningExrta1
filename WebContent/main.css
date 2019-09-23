@@ -8,7 +8,7 @@ body {
 
 
 .wrapper{
-	
+	width:100%;
 }
 
 .grid{
@@ -18,10 +18,21 @@ body {
 
 
 .menu{
-	grid-column:1/4;
+	position:fixed;
 	background: red;
-	height: 200px;
+	height: 600px;
+	width: 15%;
+	float:left;
 }
+.menuUnder{
+	background: red;
+	height: 600px;
+	width: 15%;
+	float:left;
+}
+
+
+
 .header{
 	grid-column:1/4;
 	background: blue;
@@ -30,5 +41,5 @@ body {
 .content{
 	grid-column:1/4;
 	background: green;
-	height: 200px;
+	height: 800px;
 }
