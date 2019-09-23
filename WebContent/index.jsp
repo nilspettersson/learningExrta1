@@ -12,6 +12,28 @@
 	<h1>my name is niles</h1>
 	<p>well this is stil just text but well</p>
 	
+	
+	<div class="wrapper">
+		<div class="grid">
+		
+			<div class="menu">
+				
+			</div>
+			
+			<div class="header">
+	
+			</div>
+			
+			<div class="content">
+	
+			</div>
+			
+		</div>
+	</div>
+	
+	
+	
+	
 	<form action="server">
 		<input type="text" name="text">
 		<input type="submit">

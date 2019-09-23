@@ -5,3 +5,30 @@ body {
 	padding: 0px;
 	background: white;
 }
+
+
+.wrapper{
+	
+}
+
+.grid{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+.menu{
+	grid-column:1/4;
+	background: red;
+	height: 200px;
+}
+.header{
+	grid-column:1/4;
+	background: blue;
+	height: 200px;
+}
+.content{
+	grid-column:1/4;
+	background: green;
+	height: 200px;
+}
