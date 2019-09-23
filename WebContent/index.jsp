@@ -3,9 +3,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
-</head>
+	<meta charset="ISO-8859-1">
+	<title>Insert title here</title>
+	</head>
+	<link rel="stylesheet" type="text/css" href="main.css">
 <body>
 	
 	<h1>my name is niles</h1>
