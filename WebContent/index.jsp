@@ -15,12 +15,8 @@
 		<button class="button">click</button>
 	<div class="menu">
 		
-		<form action="server">
-			<input class="category" type="submit" value="food">
-		</form>
-		<form action="server">
-			<input class="category" type="submit" value="superfood">
-		</form>
+			<button id="c1"  class="category"  onClick="clicked(this.id)">myFood</button>
+			<button id="c2" class="category"  onClick="clicked(this.id)">newFood</button>
 		
 	</div>
 	<div class="menuUnder">
@@ -56,16 +52,20 @@
 	
 	
 	
-	$("button").click(function(){
-		  $.post("server",
-		  {
-		    name: "testing",
-		    city: "Duckburg"
-		  },
-		  function(data){
-		    alert("Data: " + data);
-		  });
-		});
+	function clicked(id) {
+		var category=$('#'+id).text();
+		
+		$.post('server', //location of server
+		{send:category}, //name:value that is sent to server.
+		
+		function(data){//the function that returns the data
+			$('.content').html(data);
+		} 
+		
+		);
+	}
+	
+	
 	
 	
 	

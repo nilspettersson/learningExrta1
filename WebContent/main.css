@@ -53,11 +53,11 @@ body {
 
 .header{
 	grid-column:1/4;
-	background: blue;
-	height: 200px;
+	background: gray;
+	height: 60px;
 }
 .content{
 	grid-column:1/4;
-	background: green;
+	background: white;
 	height: 800px;
 }

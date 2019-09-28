@@ -26,7 +26,7 @@ public class server extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		PrintWriter out=response.getWriter();
 		
-		
+		out.append(request.getParameter("send"));
 		
 	}
 	
