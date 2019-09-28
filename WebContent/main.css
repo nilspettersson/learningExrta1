@@ -18,11 +18,14 @@ body {
 
 
 .menu{
+	padding-top:40px;
 	position:fixed;
-	background: red;
-	height: 600px;
+	background: rgb(60,60,60);
+	height: 800px;
 	width: 15%;
 	float:left;
+	text-align: center;
+	
 }
 .menuUnder{
 	background: red;
@@ -30,6 +33,21 @@ body {
 	width: 15%;
 	float:left;
 }
+
+
+.category{
+	margin-bottom:4px;
+	background: rgb(60,60,60);
+	color: white;
+	border: none;
+	width: 110px;
+	
+}
+.category:hover{
+	background: rgb(60,90,180);
+	transition: 0.08s;
+}
+
 
 
 
